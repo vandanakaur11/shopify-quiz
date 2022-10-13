@@ -1,0 +1,57 @@
+:root {
+    /* --blue: rgb(98, 177, 255); */
+    /* --blue: rgb(0, 0, 180); */
+    --green: #c7cfad;
+}
+
+@font-face {
+    font-family: "NewFont";
+    src: url("./assets/fonts/NewFont.otf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    font-family: "NewFont", sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
+        "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: #fbf9ee !important;
+    /* background: #fff !important; */
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+h1 {
+    /* color: #0c5b45 !important; */
+    /* color: #c7cfad !important; */
+    color: black !important;
+    font-family: "NewFont" !important;
+}
+.ant-radio-group-solid .ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled) {
+    background: var(--green) !important;
+    border-color: var(--green) !important;
+    color: #000 !important;
+    outline: var(--green) !important;
+    /* border: 3px solid var(--green) !important; */
+}
+.ant-radio-group-solid .ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled):hover {
+    color: #000 !important;
+}
+.ant-btn-primary {
+    color: #000 !important;
+    border-color: var(--green) !important;
+    background: var(--green) !important;
+    height: 47px !important;
+    padding: 4px 31px !important;
+    font-size: 17px !important;
+}
+.ant-btn-primary:hover {
+    background: transparent !important;
+}
